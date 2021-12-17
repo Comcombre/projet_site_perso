@@ -1,0 +1,92 @@
+body{
+
+	margin: 0;
+	
+}
+#fond1{
+	
+	background-image: url("../image/fond1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+#fond2{
+	background-image: url("../image/fond2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}#fond3{
+	background-image: url("../image/fond3.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+nav{
+
+	height: 10%;
+	background-color: rgb(88, 164, 235);
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	position: fixed;
+	width: 100%;
+    top: 0;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+
+}
+
+nav a.active{
+	background-color: white;
+	color: black;
+}
+
+
+nav a{
+
+	color: white;
+ 	margin-right: 5%;
+ 	margin-left: 5%;
+ 	padding: 0;
+ 	text-decoration: none;
+ }
+
+p{
+
+	font-size: 50px;
+
+}
+footer{
+	
+		position:fixed;
+		bottom:0;
+		
+		padding-top:50px;
+		height:50px;
+
+}
+
+footer img{
+
+		display: flex;
+		justify-content: right ;	
+		width: 2%;
+		margin-bottom: 0;
+}
+ 
+section{
+	background-color: rgb(69, 138, 170);
+	margin-top: 140px;
+	margin-left: 18%;
+	margin-right: 18%;
+	border-radius: 5%;
+	
+
+}
+#photo{
+	width: 40%;
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+}
